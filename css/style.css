@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 66px;
+    background-color: #166936;
+    position: fixed;
+    z-index: 1;
+}
+
+.logoWarp {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.logoWarp img {
+    margin-top: 7px;
+}
+
+nav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;  
+}
+
+.navMenuWarp {
+    float: right;
+}
+
+.navMenuWarp ul li {
+    list-style-type: none;
+    color: deeppink;
+    float: left;
+    margin-right: 50px;
+}
+
+.navMenuWarp ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.mainContainer {
+    max-width: 100%;
+    min-width: 1200px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(../images/banner-cover-ok.png);
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 100%;
+}
+
+.technology {
+    max-width: 100%;
+    min-width: 1200px;
+    height: 730px;
+    margin: 0 auto;
+    background-color: #EFECEC;
+}
+
+.technologyContainer {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.technologyContainer p {
+    text-align: center;
+    color: #166936;
+    font-size: 30px;
+}
+
+.technologyContainer img {
+    margin: 20px 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: #166936;
+}
+
+.team {
+    max-width: 100%;
+    min-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #166936;
+}
+
+.team h2 {
+    color: #ffffff;
+}
+
+.teamContainer {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.teamContainer p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.teamMemberContainer1 {
+    width: 400px;
+    float: left;
+}
+
+.teamMemberContainer2 {
+    width: 400px;
+    float: left;
+}
+
+.teamMemberContainer3 {
+    width: 400px;
+    float: left;
+}
+
+.teamContainer img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
+
+
+.teamContainer h4 {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.teamContainer p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* CONTACT STYLE */
+.contact {
+    max-width: 100%;
+    min-width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.contactContainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.infoLeft {
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+
+.infoRight {
+    width: 600px;
+    float: left;
+}
+
+.sendMessageContainer {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.sendMessageContainer h4 {
+    font-size: 30px;
+    color: #166936;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-form {
+    width: 430px;
+    height: 40px;
+    border: 2px solid #166936;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.sendMessageContainer textarea {
+    width: 430px;
+    border: 2px solid #166936;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.sendMessageContainer textarea {
+    font-size: 18px;
+    padding: 5px;
+    resize: none;
+
+}
+
+.sendMessage {
+    margin-top: 10px;
+    width: 443px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #166936;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sendMessage:hover{
+    background-color: #0b8339;
+}
+
+.addressContainer h4 {
+    font-size: 30px;
+    color: #166936;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addressContainer {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.addressLine {
+    height: 95px;
+    width: 5px;
+    background-color: #0b8339;
+    margin-top: 5px;
+    float: left;
+}
+
+.address {
+    height: 85px;
+    width: 340px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+.address p {
+    font-size: 25px;
+    text-align: left;
+    font-weight: normal;
+    color: #166936
+}
+
+.contactInformationContainer {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-top: 150px;
+}
+
+.contactInformationContainer h4 {
+    font-size: 30px;
+    color: #166936;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 430px;
+    background-color: #166936;
+}
+
+.footerWarp {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footerList {
+    height: 300px;
+    width: 210px;
+    float: left;
+    padding: 10px;
+}
+
+.footerList h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.footerList ul li {
+    font-size: 18px;
+    color: #ffffff;
+    list-style: none;
+    line-height: 30px;
+}
+
+.fellowUsContainer {
+    width: 400px;
+    height: 320px;
+    float: right;
+    margin-right: 100px;
+}
+
+.fellowUsContainer h3 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.imgContainer {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.fellowUsContainer img {
+    margin: 10px 15px;
+}
+
+.subscribeContainer {
+    width: 100%;
+    height: 70px;
+}
+
+.subscribeForm {
+    width: 550px;
+    height: 70px;
+    float: right;
+}
+
+.subscribeInput {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 2px 10px;
+}
+
+.subscribeButtom {
+    height: 45px;
+    font-size: 18px;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #0b8339;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribeButtom:hover {
+    border: 2px solid #ffffff;
+}
+
+.copyRightDetials {
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+}
+
